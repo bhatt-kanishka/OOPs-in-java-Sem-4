@@ -1,3 +1,5 @@
+// Calculating Binomial of a given number
+
 import java.util.Scanner;
 
 public class Calculate_binomial {
