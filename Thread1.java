@@ -1,4 +1,6 @@
-import java.util.Scanner;
+// Java program for ticket booking  using threads
+
+mport java.util.Scanner;
 
 public class Thread1 {
 
