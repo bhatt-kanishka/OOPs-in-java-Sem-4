@@ -1,4 +1,6 @@
 /*  Write a java program to calculate compund intereset. Take required inputs using Scanner class. */
+// more clearner version 
+
 import java.util.Scanner;
 
 public class Compoundintrest {
