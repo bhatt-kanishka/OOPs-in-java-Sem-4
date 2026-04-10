@@ -1,45 +1,4 @@
-/*import java.io.*;
-
-public class IOstream {
-    public static void main(String[] args)throws IOException {
-        FileInputStream fis = new  FileInputStream("input.txt");
-         FileOutputStream fos = new  FileOutputStream("output.txt");
-         int data;
-         while ((data = fis.read()) !=-1) {
-fos.read(data);
-}
-fis.close();
-fos.close();
-}
-}
-
-*/
-
-/* 
-import java.io.*;
-
-public class IOstream {
-    public static void main(String[] args) {
-        // Use try-with-resources to automatically close the file
-        try (FileInputStream fis = new FileInputStream("input.txt")) {
-            
-            int data;
-            // fis.read() returns the byte as an int, or -1 if the end is reached
-            while ((data = fis.read()) != -1) {
-                // Convert the byte (int) back to a character to see the text
-                System.out.print((char) data);
-            }
-            
-        } catch (FileNotFoundException e) {
-            System.err.println("The file 'input.txt' was not found.");
-        } catch (IOException e) {
-            System.err.println("An error occurred while reading the file.");
-        }
-    }
-}*/
-
-
-/*   READING DATA USING BYTESTREAM !
+/*   READING DATA USING BYTESTREAM !  */
 import java.io.*;
 
 class A{
@@ -67,15 +26,6 @@ public class IOstream{
 
     }
 }
-    */
+   
 
 
-import java.io.*;
-import java.util.Scanner;
-
-
-
-class A{
-    
-
-}
