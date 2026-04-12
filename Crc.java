@@ -1,3 +1,4 @@
+// CRC creation cyclic reduncy check
 import java.util.Scanner;
 
 public class Crc {
