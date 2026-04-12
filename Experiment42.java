@@ -1,3 +1,5 @@
+// String function --
+
 import java.util.Scanner;
 
 class Fun {
